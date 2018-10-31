@@ -1,0 +1,7 @@
+node_modules/
+dist/
+npm-debug.log*
+BEFORE_USE.md
+.vscode/
+.idea/
+package-lock.json
