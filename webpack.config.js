@@ -21,24 +21,6 @@ module.exports = {
                 test: /\.jsx?$/,
                 use: 'babel-loader',
                 exclude: /node_modules/
-            },{
-                test: /\.(gif|png|jpe?g|svg)$/i,
-                use: [
-                {
-                    loader: 'file-loader',
-                    options: {
-                    name: '[name].[ext]',
-                    outputPath: 'images/'
-                    }
-                },
-            },{
-                test: /\.html$/,
-                use: [ {
-                  loader: 'html-loader',
-                  options: {
-                    minimize: true
-                  }
-                }],
             }
         ]
     },

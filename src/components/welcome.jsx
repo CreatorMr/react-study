@@ -1,5 +1,7 @@
 import React from 'react';
 function Welcome(props) {
+    console.log('打印props')
+    console.log(props)
     return (
         <div>
             <h1>hello,{props.name}</h1>
